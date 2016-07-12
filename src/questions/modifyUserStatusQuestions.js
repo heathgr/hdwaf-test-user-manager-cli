@@ -1,6 +1,6 @@
 'use strict';
 
-const statuses = require('../../../../config/statuses');
+const statuses = require('../../config/common/statuses');
 
 const modifyUserStatusQuestions = [
   {

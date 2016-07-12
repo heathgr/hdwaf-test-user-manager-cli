@@ -1,8 +1,8 @@
 'use strict';
 
 const creatUser = require('../actions/createUser');
-const ageRanges = require('../../../../config/ageRanges');
-const genders = require('../../../../config/genders');
+const ageRanges = require('../../config/common/ageRanges');
+const genders = require('../../config/common/genders');
 
 const createUserQuestions = [
   {
