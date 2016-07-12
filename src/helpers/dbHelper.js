@@ -1,7 +1,6 @@
 'use strict';
 
 const firebase = require('firebase');
-const firebaseConfig = require('../../../../config/firebase/development/firebaseConfig');
 
 const firebaseApp = firebase.initializeApp({
   serviceAccount: __dirname + '/../../config/serviceAccountCredentials.json',

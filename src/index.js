@@ -45,7 +45,7 @@ const start = () => {
   );
 };
 
-console.log(figlet.textSync('[   HDWAF - DEV TOOLS   ]', {
+console.log(textSync('[   HDWAF - TEST USER MANAGER   ]', {
   font: 'rectangles',
   horizontalLayout: 'default',
   verticalLayout: 'default',

@@ -1,9 +1,10 @@
 {
   "name": "hdwaf-dev-utilities",
   "version": "0.0.1",
-  "description": "Development utilies for how do we all feel?",
+  "description": "Test user mananagement cli for 'How Do We All Feel?''",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Grant Heath",
