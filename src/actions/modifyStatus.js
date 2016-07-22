@@ -3,7 +3,7 @@ const dbHelper = require('../helpers/dbHelper');
 
 const modifyStatus = (newStatus) => new Promise(
   (resolve, reject) => {
-    const statusRef = dbHelper.ref.child('user-statuses/' + newStatus.uid);
+    const statusRef = dbHelper.ref.child('userStatuses/' + newStatus.uid);
 
     statusRef.once('value', (statusData) => {
       if (statusData.exists()) {

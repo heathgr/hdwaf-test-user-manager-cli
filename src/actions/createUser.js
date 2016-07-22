@@ -3,7 +3,7 @@ const dbHelper = require('../helpers/dbHelper');
 
 const createUser = (user) => new Promise(
   (resolve, reject) => {
-    dbHelper.ref.child('user-profiles/' + user.uid).set(
+    dbHelper.ref.child('userProfiles/' + user.uid).set(
       {
         displayName: user.displayName,
         ageRange: user.ageRange,
